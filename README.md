@@ -34,6 +34,7 @@ The first time you need to add layers and create local.conf from the template. T
 ```shell
 TEMPLATECONF=meta-tano-openwrt-rpi/conf . ./oe-init-build-env
 ```
+
 This command automatically creates a `build` subfolder with the required configuration (`local.conf` and `bblayers.conf`) based on the specified template.
 
 If the `build` subfolder with configuration has already been created, this command can be used to initialize build environment:
@@ -68,7 +69,6 @@ Works with OE Release 2.7 (Warrior).
 ## Dependencies
 
 ### openembedded-core
-
 URI: <git://git.openembedded.org/openembedded-core.git>  
 Subdirectory: meta  
 Branch: warrior  
@@ -76,12 +76,12 @@ Revision: 886deb4d0919c7a81036ea14fb8fd0f1619dd3a3
 
 ### meta-tano-openwrt
 URI: <https://github.com/tano-systems/meta-tano-openwrt>  
-Branch: master
+Branch: master  
 Revision: HEAD
 
 ### meta-raspberrypi
 URI: <git://git.yoctoproject.org/meta-raspberrypi>  
-Branch: warrior
+Branch: warrior  
 Revision: ca13d79422280f2f5e725c559cfe56a96fa93269
 
 ### meta-openembedded
