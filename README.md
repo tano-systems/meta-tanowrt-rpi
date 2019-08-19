@@ -54,12 +54,12 @@ MACHINE=rpi3 bitbake openwrt-image-full
 
 When the build is complete, the SD card image file will be located in folder
 ```
-./openwrt-glibc/deploy/images/rpi3/openwrt-image-full-rpi3.sdcard
+./openwrt-glibc/deploy/images/rpi3/openwrt-image-full-rpi3.sdcard.img
 ```
 
 ## Running on Hardware
 
-Use the `dd` utility to write the generated `.sdcard` image to the SD card.
+Use the `dd` utility to write the generated `.sdcard.img` image to the SD card.
 Insert the SD card into the slot on the Raspberry Pi board and turn it on.
 
 ## Limitations
