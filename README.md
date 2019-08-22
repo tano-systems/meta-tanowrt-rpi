@@ -72,7 +72,7 @@ Works with OE Release 2.7 (Warrior).
 URI: <git://git.openembedded.org/openembedded-core.git>  
 Subdirectory: meta  
 Branch: warrior  
-Revision: 886deb4d0919c7a81036ea14fb8fd0f1619dd3a3
+Revision: 952bfcc3f4b9ee5ba584da0f991f95e80654355a
 
 ### meta-tano-openwrt
 URI: <https://github.com/tano-systems/meta-tano-openwrt>  
