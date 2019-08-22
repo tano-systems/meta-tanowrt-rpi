@@ -13,6 +13,45 @@ This layer uses fragments from the [meta-raspberrypi](http://git.yoctoproject.or
 
 ## Getting Started
 
+Install the required packages by executing the following commands depending on your distribution.
+
+### Ubuntu and Debian
+
+```shell
+sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
+     build-essential chrpath socat cpio python python3 python3-pip python3-pexpect \
+     xz-utils debianutils iputils-ping
+```
+### Fedora
+
+```shell
+sudo dnf install gawk make wget tar bzip2 gzip python3 unzip perl patch \
+     diffutils diffstat git cpp gcc gcc-c++ glibc-devel texinfo chrpath \
+     ccache perl-Data-Dumper perl-Text-ParseWords perl-Thread-Queue perl-bignum socat \
+     python3-pexpect findutils which file cpio python python3-pip xz
+```
+
+### openSUSE
+
+```shell
+sudo zypper install python gcc gcc-c++ git chrpath make wget python-xml \
+     diffstat makeinfo python-curses patch socat python3 python3-curses tar python3-pip \
+     python3-pexpect xz which
+```
+
+### CentOS
+
+```shell
+sudo yum install -y epel-release
+sudo yum makecache
+sudo yum install gawk make wget tar bzip2 gzip python unzip perl patch \
+     diffutils diffstat git cpp gcc gcc-c++ glibc-devel texinfo chrpath socat \
+     perl-Data-Dumper perl-Text-ParseWords perl-Thread-Queue python34-pip xz \
+     which SDL-devel xterm
+```
+
+## Initialize Build Environment
+
 Clone openembedded-core repository:
 ```shell
 git clone -b warrior git://github.com/openembedded/openembedded-core.git
@@ -27,8 +66,6 @@ git clone -b warrior git://git.yoctoproject.org/meta-raspberrypi
 git clone -b warrior git://github.com/tano-systems/meta-tano-openwrt-rpi.git
 git clone -b warrior git://github.com/tano-systems/meta-tano-openwrt.git
 ```
-
-## Initialize Build Environment
 
 The first time you need to add layers and create local.conf from the template. To do this, run the command:
 ```shell
