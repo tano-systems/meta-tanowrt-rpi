@@ -119,7 +119,7 @@ Revision: HEAD
 ### meta-raspberrypi
 URI: <git://git.yoctoproject.org/meta-raspberrypi>  
 Branch: warrior  
-Revision: ca13d79422280f2f5e725c559cfe56a96fa93269
+Revision: b48cc66703edbc2181282d1a666733b4c98dd286
 
 ### meta-openembedded
 URI: <git://git.openembedded.org/meta-openembedded.git>  
