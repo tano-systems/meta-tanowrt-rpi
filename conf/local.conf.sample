@@ -92,4 +92,4 @@ ENABLE_BINARY_LOCALE_GENERATION = "1"
 RM_OLD_IMAGE = "1"
 
 # Distributive selection
-DISTRO ?= "tano-openwrt"
+DISTRO ?= "tanowrt"

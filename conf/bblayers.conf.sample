@@ -6,8 +6,8 @@ BBPATH = "${TOPDIR}"
 BBFILES ?= ""
 
 BBLAYERS ?= " \
-  ##OEROOT##/meta-tano-openwrt-rpi \
-  ##OEROOT##/meta-tano-openwrt \
+  ##OEROOT##/meta-tanowrt-rpi \
+  ##OEROOT##/meta-tanowrt \
   ##OEROOT##/meta-raspberrypi \
   ##OEROOT##/meta-openembedded/meta-oe \
   ##OEROOT##/meta-openembedded/meta-python \

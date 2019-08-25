@@ -1,6 +1,6 @@
-# meta-tano-openwrt-rpi
+# meta-tanowrt-rpi
 
-OpenEmbedded layer for supporting Raspberry Pi boards for [TanoWrt](https://github.com/tano-systems/meta-tano-openwrt) Linux distribution by Tano Systems.
+OpenEmbedded layer for supporting Raspberry Pi boards for [TanoWrt](https://github.com/tano-systems/meta-tanowrt) Linux distribution by Tano Systems.
 
 This layer uses fragments from the [meta-raspberrypi](http://git.yoctoproject.org/cgit.cgi/meta-raspberrypi) layer.
 
@@ -63,13 +63,13 @@ cd openembedded-core
 git clone -b 1.42 git://github.com/openembedded/bitbake.git
 git clone -b warrior git://github.com/openembedded/meta-openembedded.git
 git clone -b warrior git://git.yoctoproject.org/meta-raspberrypi
-git clone -b warrior git://github.com/tano-systems/meta-tano-openwrt-rpi.git
-git clone -b warrior git://github.com/tano-systems/meta-tano-openwrt.git
+git clone -b warrior git://github.com/tano-systems/meta-tanowrt-rpi.git
+git clone -b warrior git://github.com/tano-systems/meta-tanowrt.git
 ```
 
 The first time you need to add layers and create local.conf from the template. To do this, run the command:
 ```shell
-TEMPLATECONF=meta-tano-openwrt-rpi/conf . ./oe-init-build-env
+TEMPLATECONF=meta-tanowrt-rpi/conf . ./oe-init-build-env
 ```
 
 This command automatically creates a `build` subfolder with the required configuration (`local.conf` and `bblayers.conf`) based on the specified template.
@@ -111,8 +111,8 @@ Subdirectory: meta
 Branch: warrior  
 Revision: 952bfcc3f4b9ee5ba584da0f991f95e80654355a
 
-### meta-tano-openwrt
-URI: <https://github.com/tano-systems/meta-tano-openwrt>  
+### meta-tanowrt
+URI: <https://github.com/tano-systems/meta-tanowrt>  
 Branch: master  
 Revision: HEAD
 
