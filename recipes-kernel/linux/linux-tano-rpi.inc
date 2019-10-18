@@ -7,7 +7,7 @@ COMPATIBLE_MACHINE = "^rpi$"
 
 PE = "1"
 PV = "${LINUX_VERSION}+git${SRCPV}"
-PR_append = ".i0"
+PR_append = ".0"
 
 inherit kernel siteinfo
 
