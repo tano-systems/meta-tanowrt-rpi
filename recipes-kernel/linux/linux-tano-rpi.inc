@@ -137,3 +137,5 @@ do_deploy_append() {
     fi
     echo "${CMDLINE}${PITFT_PARAMS}" > ${DEPLOYDIR}/bcm2835-bootfiles/cmdline.txt
 }
+
+LINUX_VERSION_EXTENSION = "-tano-rpi-${LINUX_KERNEL_TYPE}"
