@@ -86,12 +86,12 @@ After executing any of the specified commands, the current directory will be aut
 Build SD card image for Raspberry Pi 3 Model B or B+ board as an example:
 
 ```shell
-MACHINE=rpi3 bitbake openwrt-image-full
+MACHINE=rpi3 bitbake tanowrt-image-full
 ```
 
 When the build is complete, the SD card image file will be located in folder
 ```
-./openwrt-glibc/deploy/images/rpi3/openwrt-image-full-rpi3.sdcard.img
+./tanowrt-glibc/deploy/images/rpi3/tanowrt-image-full-rpi3.sdcard.img
 ```
 
 ## Running on Hardware
